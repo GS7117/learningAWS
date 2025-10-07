@@ -1,0 +1,6 @@
+Make sure to uncheck the Add Paginated Reports option while setting up your quickSight account so that you are not charged during the free trial.
+
+Manifest.json : provides metadata about the dataset, enabling QuickSight to correctly interpret and display the data.
+
+QuickSight may pull data from cached data even when we have uploaded new data to your S3 and refreshed even in your QuickSight.
+Go to datasets and on bottom do refresh and do full refresh.l
