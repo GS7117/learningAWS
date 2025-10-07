@@ -1,1 +1,118 @@
 
+# Visualize data
+
+# with QuickSight
+
+### gsweaponx@gmail.com
+
+
+#### NextWork Student nextwork.org
+
+## Introducing Today's Project!
+
+In this project, I will demonstrate how to use Amazon QuickSight to analyse Netflux
+data and generate visulaizations and insights. I'm doing this project to learn cloud
+services, cloud data services for data analysis.
+
+### Tools and concepts
+
+Services I used were QuickSight and S 3. Key concepts I learnt include manifest.json,
+data visualization techniques and how to perform data refresh in QuickSight.
+
+### Project reflection
+
+This project took me approximately 2 hours including demo time. It was most
+rewarding to generate a PDF of our finished visualization.
+
+After this project, I plan to work on Day 3 of beginners AWS challenge which is about
+Cloud Security.
+
+
+#### NextWork Student nextwork.org
+
+## Upload project files into S 3
+
+S 3 is used in this project to store two files, which are manifest.json(contains metadata
+about the data) and netflix_titles.csv (raw data we are analysing)
+
+I edited the manifest.json file by updating the S 3 uri that corresponds to our dataset's
+file location. Itʼs important to edit this file because it is how QuickSight will find and
+analyse the data otherwise it wouldn't know the correct location.
+
+
+#### NextWork Student nextwork.org
+
+## Create QuickSight account
+
+Creating a QuickSight account cost $ 0 as it comes with 30 days free trial. NOTE :
+Please uncheck add on at the bottom.
+
+Creating an account took me around 5 minutes, including setting up my S 3 permission
+set up
+
+
+#### NextWork Student nextwork.org
+
+## Download the Dataset
+
+I connected the S 3 bucket to QuickSight by visiting Dataset tab and we selected S 3 as
+our data source from the options.
+
+The manifest.json file was important in this step because it tells QuickSight how to
+read the data. In this project it tells QuickSight we are uploading a .CSV file and the
+delimiter so that QuickSight knows how to break up the data.
+
+
+#### NextWork Student nextwork.org
+
+## My first visualization
+
+To create visualizations on QuickSight, I clicked on data fields/labels. And QuickSight
+automatically generate graphics to best suit that data, which you can also change
+according to your own preference.
+
+The chart/graph shown here is a breakdown of the release years of the content on
+Netflix, i.e. how many TV shows or movies were release on each year. According to
+my analysis 2018 was the year with most amount of release.
+
+I created this graph by clicking on the release year data label and changing the
+automatically generated chart to a donut chart.
+
+
+#### NextWork Student nextwork.org
+
+
+#### NextWork Student nextwork.org
+
+## Using filters
+
+Filters are useful for narrowing down our data to the subsets we want to focus on.
+Here the focus was on number of titles released in a year, count of titles by the type
+and titles released after 2015 for selected 3 types
+
+This visualization is a breakdown of TV Shows and movies that belong to one of 3
+categories (Action & Adventure, Thriller and TV Comedies), the other one shows the
+number of titles for these 3 categories which were released after 2015.
+
+
+#### NextWork Student nextwork.org
+
+## Setting up a dashboard
+
+As a finishing touch, I fixed the titles of the chart so that they are easliy readables as
+default names simply mentioned the data labels, not the purpose of the charts.
+
+I published my dashboard by selecting Publish on top righht corner of the QuickSight
+window and then clicking "Generate PDF".
+
+
+#### nextwork.org
+
+# The place to learn &
+
+# showcase your skills
+
+### Check outnextwork.orgfor more projects
+
+
+
