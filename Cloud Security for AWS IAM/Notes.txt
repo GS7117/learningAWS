@@ -1,0 +1,7 @@
+Amazon EC2 is a service that lets you rent and use virtual computers in the cloud. They're like your personal computers, but they exist on the internet instead of being physically in front of you. You can create, customize, and use these computers for all different reasons, from running applications to hosting websites.
+
+
+ What's the difference between a virtual computer and a server?
+A virtual computer is basically the same as a normal computer... only, without the screen, keyboard, and other things that make it super easy to use. Without these physical elements, it becomes virtual! When a computer is virtual, you can access it from your own physical computer - basically giving your normal computer super powers.
+
+Turns out, a server is also a computer. But a server is specifically designed to be used by a whole group of other computers to help with things like more power or storage. Servers are great for things like hosting websites, storing files, or running games that multiple people play together, whereas virtual computers are designed to be an extension of a personal computer
